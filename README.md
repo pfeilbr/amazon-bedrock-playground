@@ -5,7 +5,7 @@
 ```sh
 pipenv install
 
-# login to AWS
+# login for boto3 credentials
 aws sso login --profile root-AWSAdministratorAccess
 ```
 
