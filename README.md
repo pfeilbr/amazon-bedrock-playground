@@ -1,5 +1,7 @@
 # amazon-bedrock-playground
 
+learn [Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide)
+
 ## demo
 
 ```sh
@@ -24,3 +26,4 @@ pipenv run jupyter lab
 
 ## resources
 
+- <https://docs.aws.amazon.com/bedrock/latest/userguide>
