@@ -27,6 +27,17 @@ pipenv run jupyter lab
 
 ### Foundation Models
 
+### Custom models
+
+#### [Continued Pre-training model](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models.html#pre-training)
+
+> allows you to train a model with new unlabeled data. Use continued pre-training to teach a model new domain knowledge that's not already present in the base models. You can train a model with private data, such as business documents, that are not publically available for training large language models. Additionally, you can continue to improve the model by retraining the model with more unlabeled data as it becomes available.
+
+#### [Fine-Tuning model](https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models.html#fine-tuning)
+
+> allows you to improve a model's performance on specific tasks. By providing a training dataset of labeled examples related to a specific task, you help the model learn the task it's supposed to carry out.
+
+
 ### Knowledge base for Amazon Bedrock
 
 managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/techniques/rag) 
@@ -43,8 +54,13 @@ managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/tec
 
 [Build a Foundation Model (FM) powered customer service bot with agents for Amazon Bedrock](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents/agentsforbedrock-retailagent) - good example
 
+**TL;DR** model that uses OpenAPI schema backed by Lambda function that defines the business logic for the action that your agent will carry out
+
 **Steps**
 
+- select model (e.g. )
+- define action groups
+- add knowledge base (optional)
 
 
 **Action Groups** 
@@ -58,7 +74,7 @@ managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/tec
   - A Lambda function that defines the business logic for the action that your agent will carry out.
 
 
-## resources
+## Resources
 
 - <https://docs.aws.amazon.com/bedrock/latest/userguide>
 - [aws-samples/amazon-bedrock-samples](https://github.com/aws-samples/amazon-bedrock-samples)
