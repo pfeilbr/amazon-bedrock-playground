@@ -50,6 +50,14 @@ pipenv run jupyter lab
 
 > You can use Provisioned Throughput with Amazon and third-party base models, and with customized models.
 
+### Multimodal Embeddings model
+
+e.g. [Amazon Titan Multimodal Embeddings model](https://docs.aws.amazon.com/bedrock/latest/userguide/titan-multiemb-models.html)
+
+> searching images by text, image, or a combination of text and image. Designed for high accuracy and fast responses, this model is an ideal choice for search and recommendations use cases.
+
+see [Multimodal RAG example](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/multimodal/rag) with code at  [1_multimodal_rag.ipynb](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/multimodal/rag/1_multimodal_rag.ipynb)
+
 ### Knowledge base for Amazon Bedrock
 
 managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/techniques/rag) 
