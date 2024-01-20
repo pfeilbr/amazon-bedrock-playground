@@ -23,6 +23,14 @@ pipenv run jupyter lab
 # open http://localhost:8888/lab
 ```
 
+## concepts
+
+### agents
+
+**Action Groups** 
+
+- tasks that the agent can perform autonomously
+- Action groups are mapped to an AWS Lambda function and related API schema to perform API calls.
 
 ## resources
 
