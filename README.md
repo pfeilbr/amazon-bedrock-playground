@@ -27,3 +27,4 @@ pipenv run jupyter lab
 ## resources
 
 - <https://docs.aws.amazon.com/bedrock/latest/userguide>
+- [aws-samples/amazon-bedrock-samples](https://github.com/aws-samples/amazon-bedrock-samples)
