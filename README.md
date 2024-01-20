@@ -44,6 +44,12 @@ pipenv run jupyter lab
 1. upload a training dataset and, optionally, a validation dataset to Amazon S3 and provide the Amazon S3 bucket path to the model customization job
 1. After you complete a model customization job, you can purchase Provisioned Throughput (see Provisioned Throughput) for the customized model so that you can use the model for inference using the InvokeModel or InvokeModelWithResponseStream API operations. 
 
+### Model Provisioned Throughput
+
+> When you configure Provisioned Throughput for a model, you receive a level of throughput at a fixed cost.
+
+> You can use Provisioned Throughput with Amazon and third-party base models, and with customized models.
+
 ### Knowledge base for Amazon Bedrock
 
 managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/techniques/rag) 
@@ -83,5 +89,7 @@ managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/tec
 ## Resources
 
 - <https://docs.aws.amazon.com/bedrock/latest/userguide>
+- [Amazon Bedrock Base model IDs (on-demand throughput)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-ids-arns.html)
+- [Amazon Bedrock base model IDs (provisioned throughput)](https://docs.aws.amazon.com/bedrock/latest/userguide/prov-throughput-models.html)
 - [aws-samples/amazon-bedrock-samples](https://github.com/aws-samples/amazon-bedrock-samples)
 - [Build a Foundation Model (FM) powered customer service bot with agents for Amazon Bedrock](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents/agentsforbedrock-retailagent)
