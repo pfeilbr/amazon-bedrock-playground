@@ -27,6 +27,8 @@ pipenv run jupyter lab
 
 ### agents
 
+[Build a Foundation Model (FM) powered customer service bot with agents for Amazon Bedrock](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents/agentsforbedrock-retailagent) - good example
+
 **Action Groups** 
 
 - tasks that the agent can perform autonomously
@@ -36,3 +38,4 @@ pipenv run jupyter lab
 
 - <https://docs.aws.amazon.com/bedrock/latest/userguide>
 - [aws-samples/amazon-bedrock-samples](https://github.com/aws-samples/amazon-bedrock-samples)
+- [Build a Foundation Model (FM) powered customer service bot with agents for Amazon Bedrock](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents/agentsforbedrock-retailagent)
