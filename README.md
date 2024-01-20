@@ -23,11 +23,30 @@ pipenv run jupyter lab
 # open http://localhost:8888/lab
 ```
 
-## concepts
+## Concepts
 
-### agents
+### Foundation Models
+
+### Knowledge base for Amazon Bedrock
+
+- managed RAG
+- create vector db
+
+**Steps**
+
+1. create data source (e.g. s3 bucket with pdf docs)
+1. select embedding model (e.g. Amazon Titan G1 Embeddings - Text)
+1. create and select a vector database (e.g. OpenSearch)
+1. ingest data sources into knowledge base
+1. test knowledge base - send queries and see the responses
+
+### Agents
 
 [Build a Foundation Model (FM) powered customer service bot with agents for Amazon Bedrock](https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents/agentsforbedrock-retailagent) - good example
+
+**Steps**
+
+
 
 **Action Groups** 
 
