@@ -29,16 +29,15 @@ pipenv run jupyter lab
 
 ### Knowledge base for Amazon Bedrock
 
-- managed RAG
-- create vector db
+managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/techniques/rag) 
 
 **Steps**
 
 1. create data source (e.g. s3 bucket with pdf docs)
-1. select embedding model (e.g. Amazon Titan G1 Embeddings - Text)
-1. create and select a vector database (e.g. OpenSearch)
-1. ingest data sources into knowledge base
-1. test knowledge base - send queries and see the responses
+2. select embedding model (e.g. Amazon Titan G1 Embeddings - Text)
+3. create and select a vector database (e.g. OpenSearch)
+4. ingest data sources into knowledge base
+5. test knowledge base - send queries and see the responses
 
 ### Agents
 
@@ -50,8 +49,14 @@ pipenv run jupyter lab
 
 **Action Groups** 
 
-- tasks that the agent can perform autonomously
+- Action groups define the tasks that you want your agent to help customers carry out
 - Action groups are mapped to an AWS Lambda function and related API schema to perform API calls.
+- Knowledge bases provide a repository of information that the agent can query to answer customer queries and improve its generated responses.
+
+- Action group consists of the following components that you set up
+  - OpenAPI schema that define the APIs that your action group should call. Your agent uses the API schema to determine the fields it needs to elicit from the customer to populate for the API request.
+  - A Lambda function that defines the business logic for the action that your agent will carry out.
+
 
 ## resources
 
