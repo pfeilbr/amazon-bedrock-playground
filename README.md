@@ -37,6 +37,12 @@ pipenv run jupyter lab
 
 > allows you to improve a model's performance on specific tasks. By providing a training dataset of labeled examples related to a specific task, you help the model learn the task it's supposed to carry out.
 
+### Model customization job
+
+> A model customization job is a process that takes a base model and trains it with your data to create a custom model. You can use a model customization job to create a custom model from a base model that's provided by Amazon Bedrock or a custom model that you've already created.
+
+1. upload a training dataset and, optionally, a validation dataset to Amazon S3 and provide the Amazon S3 bucket path to the model customization job
+1. After you complete a model customization job, you can purchase Provisioned Throughput (see Provisioned Throughput) for the customized model so that you can use the model for inference using the InvokeModel or InvokeModelWithResponseStream API operations. 
 
 ### Knowledge base for Amazon Bedrock
 
