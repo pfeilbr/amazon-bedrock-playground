@@ -78,7 +78,7 @@ managed [Retrieval Augmented Generation (RAG)](https://www.promptingguide.ai/tec
 
 **Steps**
 
-- select model (e.g. )
+- select model (e.g. amazon titan)
 - define action groups
 - add knowledge base (optional)
 
